@@ -69,7 +69,7 @@ brew install --cask mongodb-compass
 
 brew install --cask postman
 
-brew install rbenv
+# rvm
 
 curl -sSL https://get.rvm.io | bash -s stable
 
