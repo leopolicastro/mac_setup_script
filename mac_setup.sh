@@ -25,6 +25,8 @@ brew install --cask spotify
 
 brew install --cask postico
 
+brew install --cask telegram
+
 brew install --cask brave-browser
 
 brew install --cask rectangle
@@ -72,6 +74,28 @@ brew install --cask postman
 brew install --cask slack
 
 brew install tmux
+
+brew install --cask ngrok
+
+brew install --cask discord
+
+brew install --cask whatsapp
+
+brew install --cask transmission
+
+brew install --cask 1password
+
+brew install --cask notion
+
+brew install --cask caffeine
+
+brew install --cask cheatsheet
+
+brew install --cask parallels
+
+brew install --cask raspberry-pi-imager
+
+brew install --cask grammarly
 
 # rvm
 
