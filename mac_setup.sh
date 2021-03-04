@@ -1,9 +1,5 @@
 #!/bin/bash
 
-
-
-# config
-
 # add progress bar when curl-ing
 
 echo progress-bar >> ~/.curlrc
@@ -12,14 +8,35 @@ echo progress-bar >> ~/.curlrc
 
 xcode-select —-install
 
-
 # install homebrew
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" 
 
-# install the executables with homebrew
-
 brew update
+
+# homebrews
+
+brew install git
+
+brew install bat
+
+brew install python@3.8
+
+brew install htop
+
+brew install speedtest-cli
+
+brew tap heroku/brew && brew install heroku
+
+brew tap mongodb/brew
+
+brew install mongodb-community@4.4
+
+brew services start mongodb-community@4.4
+
+brew install tmux
+
+# install casks with homebrew
 
 brew install --cask spotify
 
@@ -43,25 +60,7 @@ brew install --cask zoom
 
 brew install --cask tunnelblick
 
-brew install git
-
 brew install --cask alfred
-
-brew install bat
-
-brew install python@3.8
-
-brew install htop
-
-brew install speedtest-cli
-
-brew tap heroku/brew && brew install heroku
-
-brew tap mongodb/brew
-
-brew install mongodb-community@4.4
-
-brew services start mongodb-community@4.4
 
 brew install --cask postgres
 
@@ -72,8 +71,6 @@ brew install --cask mongodb-compass
 brew install --cask postman
 
 brew install --cask slack
-
-brew install tmux
 
 brew install --cask ngrok
 
@@ -125,6 +122,10 @@ git config --global user.email "$2"
 # nvm
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 nvm install --lts
 
