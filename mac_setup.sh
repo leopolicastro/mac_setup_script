@@ -69,6 +69,10 @@ brew install --cask mongodb-compass
 
 brew install --cask postman
 
+brew install --cask slack
+
+brew install tmux
+
 # rvm
 
 curl -sSL https://get.rvm.io | bash -s stable
@@ -85,6 +89,8 @@ curl https://api.cacher.io/raw/646545c7081c167ab56f/64a0859fbbf54ad42709/.vimrc 
 curl https://api.cacher.io/raw/468294b6c3ed305a64f8/b4ed0b20a4e55dbc566e/bash_aliases.sh > ~/.bash_aliases
 
 curl https://api.cacher.io/raw/6f8b1922252f91b7e94f/e50010a3ac354c015984/alias_setup.sh >> ~/.zshrc
+
+curl https://api.cacher.io/raw/46f4a1e79509d02a1ad6/367e01e9ee0e5e4dfca7/tmux.conf >> ~/.tmux.conf
 
 # Set up GitHub, script takes two arguments "name" "email"
 
