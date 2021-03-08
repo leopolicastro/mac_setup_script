@@ -36,6 +36,8 @@ brew services start mongodb-community@4.4
 
 brew install tmux
 
+brew install httpie
+
 # install casks with homebrew
 
 brew install --cask spotify
