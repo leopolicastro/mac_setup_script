@@ -20,6 +20,8 @@ brew install git
 
 brew install bat
 
+brew install jq
+
 brew install python@3.8
 
 brew install htop
